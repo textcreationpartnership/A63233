@@ -1,0 +1,771 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Tried method of catechising being an abstract of the Bishop of Corke's Shorter notes on the church-catechism : with the Scripture-proofs of them as far as necessary, and directions for the use of the abstract to advantage.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 63 KB of XML-encoded text transcribed from 18 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A63233</idno>
+            <idno type="STC">Wing T2272A</idno>
+            <idno type="STC">ESTC R25824</idno>
+            <idno type="EEBO-CITATION">09148941</idno>
+            <idno type="OCLC">ocm 09148941</idno>
+            <idno type="VID">42525</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A63233)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 42525)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1296:30)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Tried method of catechising being an abstract of the Bishop of Corke's Shorter notes on the church-catechism : with the Scripture-proofs of them as far as necessary, and directions for the use of the abstract to advantage.</title>
+                  <author>Rosse, E. Corke.</author>
+               </titleStmt>
+               <extent>6, 24, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Benj. Tooke,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1698.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signed on p. 2: E. Corke Rosse.</note>
+                  <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible --  Examinations, questions, etc.</term>
+               <term>Catechisms, English.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-06</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-06</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:42525:1"/>
+            <pb facs="tcp:42525:1"/>
+            <p>A TRIED METHOD OF <hi>Catechiſing.</hi> BEING An ABSTRACT of the Biſhop of <hi>CORKE</hi>'s Shorter Notes on the Church-Catechiſm. With the Scripture-Proofs of them as far as Neceſſary. And DIRECTIONS for the Uſe of the Abſtract to Advantage.</p>
+            <q>
+               <hi>Feed my Lambs,</hi> 
+               <bibl>John XXI. 15.</bibl>
+            </q>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Benj. Tooke,</hi> at the <hi>Middle-Temple-Gate</hi> in <hi>Fleet-ſtreet.</hi> 1698.</p>
+         </div>
+      </front>
+      <body>
+         <div type="directions">
+            <pb facs="tcp:42525:2"/>
+            <pb n="1" facs="tcp:42525:2"/>
+            <head>The Uſe of this Abſtract is as follows.</head>
+            <p>LET Children or like Perſons, when they are perfect in rehearſing the Catechiſm, be ſet to learn without Book the ſeveral Explanatory Propoſitions, here drawn out of the Notes on each Queſtion and Anſwer; as many Propoſitions at a time, as may be a Task ſuitable to their Capacity. When they are able to repeat ſuch a Portion readily, let them in their Exa<g ref="char:EOLhyphen"/>mination at Church, or elſewhere, after any Queſtion or Anſwer in the Catechiſm, have the Queſtion contained in each Propoſition belonging there<g ref="char:EOLhyphen"/>to, put to them; and they will ſcarce fail to give it the proper Anſwer: For that each Queſtion is repeated almoſt expreſly in the Anſwer. Then let them be asked, How they prove that Anſwer? And they will be ready to give the Words of Scripture, ſet down, which prove it. By the next Lord's Day, or next Holy-day, let them have another like Portion of the Propoſitions ready; and let them then, as before, be examined in them, together with their Catechiſm; and ſo till the whole be diſpatched. <hi>For Example.</hi>
+            </p>
+            <p>Queſt. <hi>What is it to Catechiſe?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> To Catechiſe, is to inſtruct in Religion, by often repeating the firſt, certain, and moſt neceſſary Points of it.</p>
+            <p>Queſt. <hi>How prove you that?</hi>
+            </p>
+            <p>
+               <hi>Anſ. By</hi> Luke <hi>1.3, 4. It ſeemed good to me to write—that thou mighteſt know the certainty of thoſe things, wherein thou haſt been inſtructed;</hi> Greek, <hi>Catechiſed.</hi>
+            </p>
+            <p>And here will be the chief need for the Catechiſt to exerciſe his Skill, in ſhewing how the proof belongs to, and explains or concludes the Propoſition: or ſometimes, to what part of the Propoſition ſuch or ſuch a Proof belongs; ſo that the Hearers generally may underſtand the whole Propoſition, and that it is ſufficiently proved.</p>
+            <p>As in the foreinſtanced Proof; <q>It is plain from St. <hi>Luke,</hi> (may the Catechiſt ſay) That in the Primitive Church there were ſeveral ways (or kinds) of Inſtruction, according to the different Capacities of thoſe who were to receive Inſtruction. Now it is ſaid, That <hi>Theophilus</hi> to whom St. <hi>Luke</hi> writes, <hi>had been already inſtructed in ſome things:</hi> And St. <hi>Luke</hi> writes, and ſends to him this Book, that he might further, and more fully, <hi>know the certainty of thoſe things wherein he had been inſtructed;</hi> or, as in the Original, wherein he had been <hi>Cate<g ref="char:EOLhyphen"/>chiſed.</hi> Therefore Catechiſing is to inſtruct in Religion, by often plain going over again, or repeating the firſt and moſt neceſſary Points of it.</q>
+            </p>
+            <pb n="2" facs="tcp:42525:3"/>
+            <p>Thus again, in <hi>Prop. VIII.</hi> under <hi>Anſw. 6.</hi> without ſome gloſs, it will not at firſt ſight appear, how the Text cited proves the Propoſition; The Propoſition (or Definition) is, <hi>To Create, is to make a thing at firſt out of nothing.</hi> The proof is Gen. <hi>1.1. In the beginning God created the Heaven and the Earth.</hi> 
+               <q>Let it be ſuppoſed, (as is uſual, both in Scripture, and in the firſt Article of our Creeds) by <hi>Heaven and Earth,</hi> is meant the Sum of <hi>all Created Beings, viſible and inviſible.</hi> Now it is ſaid by the Holy Ghoſt, <hi>In the beginning</hi> (that is, of things and time, when there were yet no Created Beings exiſtent, or nothing made) <hi>God made Heaven and Earth,</hi> that is, all things.</q> But there was then exiſtent no Created Being, out of which he might make them: For then it could not have been truly ſaid, <hi>In the beginning,</hi> or at Firſt: For that Matter (or whatſover we will call it) out of which Heaven and Earth might be pleaded to be made, muſt have been, or have a Being, before Hea<g ref="char:EOLhyphen"/>ven and Earth could be made out of it; And then I ſay it could not truly have been ſaid, <hi>In the beginning,</hi> or at firſt; foraſmuch as there was Matter before that. Therefore it appears hence, That when God is ſaid to have created Heaven and Earth, he made them out of nothing, which is the pretended Notion or Meaning of Creation.</p>
+            <p>This Courſe is only for the Weaker or Younger Sort, and to begin with. But when ſuch Perſons are a little exerciſed in this Method, and have gone through the whole Catechiſm, let the Notes (either the ſhorter or the larger) be put into their Hands, and if they be in any tolerable way induſtrious, they will be able to underſtand, and give a fuller Account, as well of what is contained in this Abſtract, as of what is omitted here, but contained in the Notes; particularly touching their <hi>Chriſtian Name,</hi> touching <hi>God<g ref="char:EOLhyphen"/>fathers and Godmothers,</hi> &amp;c. which things it is not ſo neceſſary to trouble them with, till they underſtand the Matters which are more Eſſen<g ref="char:EOLhyphen"/>tial to Religion.</p>
+            <p>But though any ſhould miſs of the <hi>Notes,</hi> if the <hi>Propoſitions,</hi> and their <hi>Proofs,</hi> be uſed as is directed, and the Perſons ſo Catechiſed taught to Read and turn their Bibles; it may be hoped by theſe means, through God's Bleſſing on a little uſe, they will underſtand (by degrees) the Body of Plain Chriſtianity, and how to prove it out of the Holy Scripture, ſo as not to be eaſily ſhaken in it afterwards.</p>
+            <p>This is enough to explain the Uſe of the Abſtract. And ſo God bleſs my poor Endeavours, and together all who uſe them.</p>
+            <closer>
+               <signed>E. Corke Roſſe.</signed>
+            </closer>
+         </div>
+         <div type="paraphrase_of_creed">
+            <pb n="3" facs="tcp:42525:3"/>
+            <head>A Paraphraſe on the Apoſtles Creed.</head>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>I</label> THere is, from ever was, and for ever ſhall be, an All-Wiſe and All-Powerful Mind, of moſt Infinite Perfection and Goodneſs, depend<g ref="char:EOLhyphen"/>ing on none, but all things (both ſeen and unſeen) made, ſubſiſting, and governed by him; called therefore generally the Father of all; but in a pe<g ref="char:EOLhyphen"/>culiar Senſe the Father of his only begotten Son.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>II</label> Which Son, becauſe the Internal Word, or the Wiſdom of God<g ref="char:punc">▪</g> the Father, and ſo being of him, as to have been one with him before the World was, is therefore neceſſarily of the ſame Subſtance with his Father: Yet that he might be<g ref="char:EOLhyphen"/>come unto Mankind <hi>Jeſus Chriſt,</hi> (an anointed Saviour, a Prophet, Prieſt, and King,) and in that quality for the good of Mankind, receive all Power in Heaven and in Earth,</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>III</label> He, the ſame Son of God, had a Body, ſuch as ours, framed him by the Holy Spirit, of the Sub<g ref="char:EOLhyphen"/>ſtance of the Virgin <hi>Mary;</hi> which together with a Soul, ſuch as ours, but without Sin, he took upon him, and became truly Man, being born as an Infant into the World.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>IV</label> When he was grown up, after a moſt Holy Life, he was notwithſtanding accuſed, and firſt ſecretly condemned to Death by the <hi>Jews;</hi> then ſolemnly arraigned and condemned by a <hi>Roman</hi> Governor, called <hi>Pontius Pilate;</hi> moſt abominably mocked and abuſed by the Rabble, and <hi>Roman</hi> Soldiers; ſcourged, crowned with Thorns; and in the end nailed to a Croſs, and ſet up hanging thereon, till his Soul really departed from his Bo<g ref="char:EOLhyphen"/>dy. And after ſome time, he was laid in a Grave,
+<pb n="4" facs="tcp:42525:4"/> as the manner of the <hi>Jews</hi> was, and continued under the ſtate of a dead and buried Perſon.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>V</label> On the third day, early in the Morning, his Soul returned into his Body, which being there<g ref="char:EOLhyphen"/>by again enlivened, he came forth of the Grave and openly ſhewed himſelf alive, converſing with his Diſciples, and other choſen Witneſſes, for the ſpace of forty Days.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>VI</label> At which time in the ſight of his Diſciples and thoſe who uſed to keep with them, he went up, through the Air, into that place, far above the Stars, where the Glory of the Infinite God more immediately dwells and appears; and there re<g ref="char:EOLhyphen"/>ceived Glory, Power, and Bleſſedneſs, uncon<g ref="char:EOLhyphen"/>ceivably above the higheſt Angels, or any created Beings, all which bow to and worſhip him.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>VII</label> From thence at a time appointed by God, and known only to him, ſhall this <hi>Chriſt Jeſus</hi> come again; not as firſt he came, but with Power and great Glory, accompanied by numberleſs Holy Angels and Saints, to judge all that ſhall be then alive, and all who have deceaſed, from firſt to laſt.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>VIII</label> Together with the Father and the Son, the Ho<g ref="char:EOLhyphen"/>ly Spirit alſo really is, and is God; all three one God. He is called Holy and Spirit, not becauſe more Holy, or more a Spirit than God the Fa<g ref="char:EOLhyphen"/>ther, but becauſe he is that Spirit which pecu<g ref="char:EOLhyphen"/>liarly does inſpire (that is, ſecretly work) Holi<g ref="char:EOLhyphen"/>neſs in us.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>IX</label> Through this Holy Spirit, working Faith and Holineſs in mens hearts, by the Word, Sacraments, and Prayer, God hath gathered to himſelf a multitude of faithful People, called out of all the World, named therefore the Catholick Church
+<pb n="5" facs="tcp:42525:4"/> (for Church originally ſignifies an Aſſembly, or Multitude, called out; and Catholick ſignifies, out of all the World.) Theſe faithful People are all of them united to Chriſt their Head, and to one another, in one Covenant by Baptiſm; and being ſo united do partake of the Benefits procured by one and the ſame Saviour, of the Influences of one and the ſame Spirit, and reap Advantages by each others Prayers, Love and good Offices: By which means they are truly all but one Body.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>X</label> To all the Members of this Body, upon their obſerving the Conditions of their Common Chri<g ref="char:EOLhyphen"/>ſtianity, that is, of the Covenant of Grace, full Pardon of Sins, and Righteouſneſs before God, is graciouſly vouchſafed by God.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>XI</label> The Bodies of all People, both Juſt and Unjuſt, ſhall at the end of the World be by God won<g ref="char:EOLhyphen"/>derfully framed again out of their Duſt, and their Souls returning into them, and enlivening them, they ſhall all again become living Men and Wo<g ref="char:EOLhyphen"/>men. But thoſe, who are then alive, ſhall have their Bodies changed into a condition like to theirs who riſe again.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Article </seg>XII</label> After this there ſhall be no more Death; But all Faithful and Holy Perſons ſhall live without end, enjoying God in unſpeakable unconceivable Bleſſedneſs: And all Unbelieving, Impenitent, Wicked People ſhall be puniſhed with the Devil and his Angels, for evermore.</p>
+            <p>All this I ſtedfaſtly believe, that is, I am per<g ref="char:EOLhyphen"/>ſuaded it is true, and I reſolve to live as one who is ſo perſuaded.</p>
+         </div>
+         <div type="paraphrase_of_prayer">
+            <pb n="6" facs="tcp:42525:5"/>
+            <head>A Paraphraſe on the Lord's Prayer.</head>
+            <p>
+               <note place="margin">The Invo<g ref="char:EOLhyphen"/>cation, or Adorati<g ref="char:EOLhyphen"/>on.</note>O Moſt merciful and bounteous, yet Almigh<g ref="char:EOLhyphen"/>ty, moſt Glorious and All-ſeeing Lord God; who haſt made, redeemed, and evermore provideſt for me and all Mankind.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Petition </seg>I</label> From my heart do I pray, that thou mayeſt be ever acknowledged, worſhipped, feared, and glori<g ref="char:EOLhyphen"/>fied, both by my ſelf and all Creatures whatſo<g ref="char:EOLhyphen"/>ever, capable of knowing and fearing thee.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Petition </seg>II</label> And that thy Grace may bring into Subjecti<g ref="char:EOLhyphen"/>on my Heart, and the Hearts of all People; ſo that the time may ſoon come, when all thy Saints ſhall reign with thee in Glory everlaſting.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Petition </seg>III</label> And in the mean while, that both I and all People may moſt chearfully, faithfully, ſpeedily, and diligently, do and ſubmit to thy Will in all things, as thy Holy Angels do in Heaven.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Petition </seg>IV</label> As to this World, give us, good God, day by day, as long as thou ſhalt continue us here, what may conveniently ſuffice us.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Petition </seg>V</label> And free us from the Puniſhments, both pre<g ref="char:EOLhyphen"/>ſent and to come, due unto all our Sins; Even as we deſire all People may be freed from the Vengeance due to them for any wrong done us.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Petition </seg>VI</label> And never, O Lord, withdraw thy Grace from us, when we fall under any allurements to Sin, or terrors from Duty, ſo as to leave us to be over<g ref="char:EOLhyphen"/>come by Sin: but preſerve us from the Miſchief of the Temptation, and Power of the Tempter.</p>
+            <p>
+               <note place="margin">Glorifica<g ref="char:EOLhyphen"/>tion.</note>For thou alone, O Heavenly Father, both art, ever haſt been, and ever ſhall be, King and Lord moſt high over all, Almighty and Sufficient. From thee comes every good, and every perfect Gift; and to thee be the Glory of all to all Eter<g ref="char:EOLhyphen"/>nity. With all my heart I deſire it.</p>
+         </div>
+         <div type="abstract">
+            <pb n="1" facs="tcp:42525:5"/>
+            <head>An ABSTRACT of the Biſhop of <hi>CORK</hi>'s Shorter Notes on the Church-Catechiſm, with the Scripture Proofs of them, as far as neceſſary.</head>
+            <p>
+               <note place="margin">On the Title.</note>
+               <label type="milestone">
+                  <seg type="milestoneunit">Proposition </seg>I</label> TO <hi>Catechiſe</hi> is to inſtruct in Religion, by often repeating the firſt, certain, and moſt neceſſary Points of it. <hi>Luke</hi> 1.3, 4. <hi>It ſeemed good to me — to write all in order — that thou mighteſt know the certainty of thoſe things wherein thou haſt been inſtructed:</hi> In the Original, <hi>Catechiſed.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Proposition </seg>II</label>
+               <hi>Religion is the</hi> Worſhip or Service of God. <hi>Jam.</hi> 1.27. <hi>Pure Religion;</hi> Originally, <hi>pure Worſhip.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Proposition </seg>III</label> God is a moſt infinitely perfect Mind, Ma<g ref="char:EOLhyphen"/>ker, Lord, and Judge of all. Proved under Anſwer 6.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Proposition </seg>IV</label> Thoſe plain Truths (or Doctrines) which bring us to believe, love, fear and ſerve God, we commonly call the Principles [that is, be<g ref="char:EOLhyphen"/>ginnings, chief Points, Fundamentals] or Grounds of Religion. <hi>Heb.</hi> 6.1. <hi>Leaving the principles of the doctrine of Chriſt, let us go on unto perfection, not laying again the foundation.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Proposition </seg>V</label> The firſt and great Principle of all Religion is, That there is a God. <hi>Heb.</hi> 11.6. <hi>He that cometh to God, muſt believe that he is.</hi> Another,
+<pb n="2" facs="tcp:42525:6"/> That God hath revealed himſelf in Holy Scrip<g ref="char:EOLhyphen"/>ture, ready to receive Sinners to Repentance. and enter into Covenant with them. <hi>Luk.</hi> 24, 47. <hi>It behoved—that repentance and remiſſion of ſins ſhould be preached in the name of Jeſus among all nations.</hi>
+            </p>
+            <p>
+               <note place="margin">On Anſw. <hi>2.</hi>
+               </note>
+               <milestone type="tcpmilestone" unit="unspecified" n="I"/> The Covenant of Grace (to which God now-a-days calls all of us, and into a ſtate of which we are baptiſed) conſiſteth, on God's part, of the Benefits which he makes over to us: And on our part, of the Vow which we make to him [commonly in Baptiſm.] <hi>Jer.</hi> 31.33. <hi>This is the Covenant — I will be their God, and they ſhall be my people.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="II"/> The Benefits God makes over to us, flowing from that new Eſtate, into which by Baptiſm we enter, are chiefly three.</p>
+            <p n="1">1. Grace (by being <hi>made Members of Chriſt our Head) <hi>Joh.</hi>
+               </hi> 1.16. <hi>Of his fulneſs have we all received, and grace for grace.</hi> 2. Pardon of Sin, and God's favour (being <hi>made Children of God</hi>) Acts 22.16. <hi>Be baptiſed, and waſh away thy ſins.</hi> 3. A Right and Title to Everlaſting Happineſs (being made <hi>Inheritors of the King<g ref="char:EOLhyphen"/>dom of Heaven.</hi>) Rom. 8.17. <hi>And if children, then heirs; heirs of God, and joint heirs with Chriſt—that we may be alſo glorified together.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="III"/> To be a Member of Chriſt, is to be a Mem<g ref="char:EOLhyphen"/>ber of the Church, whereof Chriſt is the Head. <hi>Epheſ.</hi> 5.30. <hi>Members of his body, which is the Church.</hi> And <hi>v.</hi> 23. <hi>Chriſt is the head of the Church.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="IV"/> To be a Child of God, is to be put into the Condition of a Child; or into an Eſtate of God's Fatherly favour. 1 <hi>Cor.</hi> 12.13. <hi>We are
+<pb n="3" facs="tcp:42525:6"/> baptiſed into one body by one ſpirit:</hi> Namely (<hi>Rom.</hi> 8.15.) <hi>The ſpirit of adoption, by which we cry, Abba, Father;</hi> that is, truly call God Father, and may come to him as a Father, with hum<g ref="char:EOLhyphen"/>ble boldneſs. <hi>Epheſ.</hi> 2.18. and 3.12.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="V"/> To be an Inheritor of the Kingdom of Hea<g ref="char:EOLhyphen"/>ven (here) is to have a right to inherit it. (For in this Life we can only have a right). Revel. 22.14. <hi>That they may have a right to en<g ref="char:EOLhyphen"/>ter in through the gates into the city.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="VI"/> Heaven is a State and Place of Everlaſting Happineſs or Bliſs after Death. 1 <hi>Pet.</hi> 1.4. <hi>An inheritance incorruptible and undefiled, and that fa<g ref="char:EOLhyphen"/>deth not away, reſerved in heaven for you.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="VII"/> By the Kingdom of Heaven is meant the Glory and greatneſs of that Happy State with God and Chriſt, in Heaven. Coloſſ. <hi>We ſhall appear with him in glory.</hi> Rom. 8.17. <hi>Be glori<g ref="char:EOLhyphen"/>fied together.</hi>
+            </p>
+            <p>
+               <note place="margin">On Anſw. <hi>3.</hi>
+               </note>
+               <milestone type="tcpmilestone" unit="unspecified" n="I"/> To vow is to make a ſolemn Promiſe to God, as ſtrong as an Oath. <hi>Pſal.</hi> 132.2. <hi>He ſware unto the Lord, and vowed unto the mighty God of Jacob.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="II"/> The Vow which we made to God in Bap<g ref="char:EOLhyphen"/>tiſm conſiſts of three things. 1. Repentance, or foregoing all wicked Life, [in <hi>renouncing the Devil, and all his works, the Pomps,</hi> &amp;c.] 2. Faith, in <hi>believing all the Articles of the Chriſtian Faith.</hi> 3. Obedience, growth, and continuance therein; in <hi>keeping God's holy Will and Commandments, and walking,</hi> &amp;c. proved by the form of Baptiſm.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="III"/> To renounce, is to diſclaim, diſown, or vow againſt.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="IV"/> Devils are Angels fallen from Heaven, into
+<pb n="4" facs="tcp:42525:7"/> an Eſtate of moſt malicious Sinning, and moſt dreadful Torments. <hi>Jude</hi> 6. <hi>The Angels which kept not their firſt eſtate, but left their own habi<g ref="char:EOLhyphen"/>tation, he hath reſerved in everlaſting chains under darkneſs, unto the judgment of the great day.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="V"/> Angels are ſuch Beings as our Souls are without Bodies; but exceedingly much more knowing and powerful. <hi>Pſal.</hi> 103.20. <hi>Ye An<g ref="char:EOLhyphen"/>gels that excel in ſtrength, that do his commandments, hearkening unto the voice of his word.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="VI"/> All manner of Sin may be called the work of the Devil; 1 <hi>John</hi> 3.8. <hi>He that committeth ſin, is of the Devil; for the Devil ſinneth from the beginning. For this purpoſe the Son of God was manifeſted, that he may deſtroy the works of the Devil.</hi> But eſpecially ſeeking to the Devil, or to thoſe who are believed to deal with him. <hi>Levit.</hi> 20.27. <hi>A man or woman that hath a fa<g ref="char:EOLhyphen"/>miliar ſpirit, or that is a wizard, ſhall ſurely be put to death: they ſhall ſtone them with ſtones.</hi> 1 Chron. 10.13. <hi>Saul died for his tranſgreſſion which he committed againſt the Lord; and alſo for asking counſel of one that had a familiar ſpirit, to enquire of it.</hi> As alſo all Pride, Envy, Ma<g ref="char:EOLhyphen"/>lice, Murther, Lying, Falſe accuſing, Temping others, and Falling off from God.</p>
+            <p>Pride, which is commonly believed one of the Sins by which Angels fell to be Devils. <hi>Iſa.</hi> 14.12, 13, 14. <hi>How art thou fallen from hea<g ref="char:EOLhyphen"/>ven, O Lucifer,</hi> &amp;c.?</p>
+            <p>Envy or Malice; <hi>Jam.</hi> 3.14, 15. <hi>If ye have bitter envyings or ſtrife in your hearts— this wiſdom— is earthly, ſenſual, deviliſh.</hi>
+            </p>
+            <p>Lying, and Murther; <hi>John</hi> 8.44. <hi>Ye are of your father the Devil, and the luſts of your fa<g ref="char:EOLhyphen"/>ther
+<pb n="5" facs="tcp:42525:7"/> ye will do: He was a murtherer from the be<g ref="char:EOLhyphen"/>ginning, and abode not in the truth, becauſe there is no truth in him. When he ſpeaketh a lye, he ſpeak<g ref="char:EOLhyphen"/>eth of his own: for he is a lyar, and the father of it.</hi>
+            </p>
+            <p>Falſe Accuſing: <hi>Revel.</hi> 12.10. <hi>The accuſer of our brethren— which accuſed them before God day and night.</hi>
+            </p>
+            <p>Corrupting or temping others to ſin. 1 <hi>Theſſ.</hi> 3.5. <hi>The tempter hath tempted you.</hi>
+            </p>
+            <p>Apoſtacy, or falling from God. <hi>Jude</hi> 6. <hi>The Angels which left their firſt eſtate.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="VII"/> The Pomps and Vanities of this wicked World are all lewd Shews, and Sights, pro<g ref="char:EOLhyphen"/>voking luſt in our ſelves or others. As alſo all remains of Heatheniſh Cuſtoms yet viſi<g ref="char:EOLhyphen"/>ble amongſt us: All other Cuſtoms contrary to Chriſt's Laws; as is any making a ſport of Sin: And finally, all wild Revelling, Riot, Luxury, wanton Apparel, and Habit above our Quality.</p>
+            <p>Lewd Shews and Sights provoking Luſt. <hi>Ezek.</hi> 23.14, 15, 16. <hi>She increaſed in her whore<g ref="char:EOLhyphen"/>doms; for when ſhe ſaw men pourtrayed on the walls— exceeding in dyed</hi> (or party-colour'd) <hi>attire on their heads— after the manner of the Babylonians— ſhe doted on them.</hi> 1 John 2.16. <hi>All that is in the world, the luſts of the eyes, and the pride of life, is not of the Father, but of the world.</hi>
+            </p>
+            <p>Remains of Heatheniſh Cuſtoms. 1 <hi>Cor.</hi> 10.20, 21. <hi>The things which the Gentiles ſacrifice, they ſacri<g ref="char:EOLhyphen"/>fice to Devils, and not to God; and I would not that ye ſhould have fellowſhip with Devils. Ye cannot drink the cup of the Lord, and the cup of Devils: Ye cannot be partakers of the Lord's table, and of the table of Devils.</hi>
+            </p>
+            <pb n="6" facs="tcp:42525:8"/>
+            <p>Cuſtoms contrary to Chriſt's Law. <hi>Rom.</hi> 12.2. <hi>Be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect will of God.</hi>
+            </p>
+            <p>Making a ſport of Sin. <hi>Prov.</hi> 14.9. <hi>Fools make a mock at ſin.</hi>
+            </p>
+            <p>Wild Revelling and Riot, <hi>&amp;c.</hi> 2 <hi>Theſſ.</hi> 3.6. <hi>We command you, brethren, in the name of the Lord Jeſus Chriſt, that ye withdraw your ſelves from every brother that walketh diſorderly, and not after the tradition which he received of us.</hi>
+            </p>
+            <p>Habit above our Quality. 1 <hi>Pet.</hi> 3.3. <hi>Whoſe adorning, let it not be that outward, of plaiting the hair, and of wearing of gold, or of putting on of apparel.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="VIII"/> Luſt ſignifies an earneſt deſire, commonly in ſome evil way.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="IX"/> The Fleſh ſignifies the outward Natural Man, as generally corrupt, with all its Senſes and Faculties. <hi>Gal.</hi> 5.19. <hi>Now the works of the fleſh are manifeſt, which are theſe, adultery, fornication, uncleanneſs, laſciviouſneſs.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="X"/> The deſires of the Fleſh are ſinful, when they offend againſt the Chriſtian Law: That is, when they are either of things evil and forbidden. 1 <hi>Cor.</hi> 10.6. <hi>We ſhould not luſt after evil things, as they alſo luſted.</hi> Or of the unſeaſo<g ref="char:EOLhyphen"/>nable or immoderate uſe of things allowed. Such was the <hi>Iſraelites</hi> luſting after Fleſh in the Wilderneſs. <hi>Pſal.</hi> 78.20, 29, 30.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="XI"/> The Articles of our Chriſtian Faith, are the ſeveral parts of the Belief.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="XII"/> To believe theſe, is to be ſo heartily perſuaded of the truth of them, as thereby to ſtir up our
+<pb n="7" facs="tcp:42525:8"/> ſelves to the performance of our duty. <hi>Acts</hi> 24.14. <hi>Believing all things which are written in the Law and the Prophets.</hi> Gal. 5.6. <hi>Faith work<g ref="char:EOLhyphen"/>eth by love.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="XIII"/> To keep God's holy Will and Command<g ref="char:EOLhyphen"/>ments, is to do what he has bid us to do; and to avoid what he has forbidden. 1 <hi>Pet.</hi> 3. <hi>Eſ<g ref="char:EOLhyphen"/>chew evil, and do good.</hi> Iſa. 1.16, 17. <hi>Ceaſe to do evil, Learn to do well.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="XIV"/> To walk in the ſame all the days of our Life, is daily to proceed, or grow in obedi<g ref="char:EOLhyphen"/>ence, and to our death to continue ſo doing. Luke 1.75. <hi>To ſerve him in holineſs and righte<g ref="char:EOLhyphen"/>ouſneſs before him all the days of our life.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="XV"/> The ſum (or ſhort) of our Baptiſmal Vow is, Repentance from dead Works, Faith, and a growing, laſting Obedience.</p>
+            <p>
+               <note place="margin">On Qu. and Anſwer <hi>4.</hi>
+               </note>
+               <milestone type="tcpmilestone" unit="unspecified" n="I"/> All Chriſtian Children, when come to years of diſcretion, are bound to own the Vow made in their name, and to do all that was promiſed for them therein: Or elſe by not owning it, they renounce all claim and title to God's Grace, to Pardon, and to inheriting Heaven. Each of us neceſſarily muſt <hi>chuſe life or death.</hi> Read <hi>Deut.</hi> 30.15. to the end.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="II"/> We muſt promiſe nothing in our own ſtrength, that is, without God helping us. <hi>James</hi> 4.15. <hi>Ye ought to ſay, If the Lord will, we will live, and do this, or that.</hi> John 15.5. <hi>Without me ye can do nothing.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="III"/> Salvation ſignifies being ſaved from Hell. 1 <hi>Theſſ.</hi> 1. laſt. <hi>Delivered from the wrath to come.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="IV"/> Hell is a State and Place of Everlaſting Pu<g ref="char:EOLhyphen"/>niſhment after Death. <hi>Matt.</hi> 25.46. <hi>The wick<g ref="char:EOLhyphen"/>ed
+<pb n="8" facs="tcp:42525:9"/> go into everlaſting puniſhment.</hi> Luke 16.28. — <hi>they come into this place of torment.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="V"/> A State of Salvation, commonly, is no more than being of the Church. <hi>Acts</hi> 2. <hi>v.</hi> laſt. <hi>The Lord added to the Church daily ſuch as ſhould be ſaved.</hi> For thoſe who are in the Church are in a fair way to Salvation, as having the means to obtain it. <hi>Deut.</hi> 30.15. <hi>See, I have ſet before thee this day life and good.</hi> That is, Good as the way to Life.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="VI"/> We are called into this State by being bapti<g ref="char:EOLhyphen"/>ſed and brought into the Church. <hi>Gal.</hi> 3.27, 28, 29. <hi>As many of you as have been baptiſed into Chriſt, have put on Chriſt— are all one in Chriſt — and heirs according to promiſe.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="VII"/> Grace ſignifies God's help, or a ſtrength above what we have by Nature, given us free<g ref="char:EOLhyphen"/>ly by God, for enabling us to do his Will. 2 <hi>Cor.</hi> 12.9. <hi>My grace is ſufficient for thee.</hi> Phil. 4.13. <hi>I can do all things through Chriſt which ſtrengtheneth me.</hi>
+            </p>
+            <p>[The Explication of the Creed is omitted here any farther than the Catechiſm ex<g ref="char:EOLhyphen"/>plains it.]</p>
+            <p>
+               <note place="margin">On Anſw. <hi>6.</hi>
+               </note>
+               <milestone type="tcpmilestone" unit="unspecified" n="I"/> To believe in God, is to be perſuaded there is a God, and that all which he has ſaid is true. 2 <hi>Chron.</hi> 20.20. <hi>Believe in the Lord your God, ſo ſhall you be eſtabliſhed; believe his Prophets, ſo ſhall ye proſper.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="II"/> God is an Eternal, and infinitely Perfect Spirit or Mind; who is of himſelf, and can<g ref="char:EOLhyphen"/>not but be; who has made, upholds, rules, and has a right to, all things, and all Perſons, [Proved in all parts following, but firſt opened.]</p>
+            <pb n="9" facs="tcp:42525:9"/>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="III"/> Eternal is without beginning or end of time. <hi>Heb.</hi> 7.3. <hi>Having neither beginning of days, nor end of life.</hi> Pſal. 90.2. <hi>From everlaſt<g ref="char:EOLhyphen"/>ing to everlaſting.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="IV"/> A Spirit is ſuch a Being as the Soul of Man is without his Body. <hi>Eccleſ.</hi> 12.7. <hi>Then ſhall the duſt return to the earth as it was, and the ſpirit return unto God who gave it.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="V"/> The Soul of Man is that unſeen part of him, by which the Body lives, moves, hears, ſees; and the Man thinks, judges, reſolves, and does all he does. <hi>Gen.</hi> 2.7. <hi>The Lord God formed man</hi> [that is, his lifeleſs Body] <hi>out of the duſt of the ground, and breathed into his noſtrils</hi> [or into the Body now formed] <hi>the breath of life: And man became a living ſoul.</hi> Matth. 15.19. <hi>Out of the heart</hi> [or Soul] <hi>proceed evil thoughts,</hi> &amp;c.</p>
+            <p>Infinitely perfect is that, to which nothing <milestone type="tcpmilestone" unit="unspecified" n="VI"/> that is good can be added; and which is above the power of all evil: Or that, which is All Wiſe, All Powerful, All Holy and Gracious, and which always will be ſo.</p>
+            <div type="proofs">
+               <head>[Proofs of the <hi>II<hi rend="sup">d</hi> Propoſition</hi> in all its Parts.]</head>
+               <p>
+                  <hi>God is a ſpirit,</hi> John 4.24.</p>
+               <p>Eternal. <hi>Iſa.</hi> 40.28. <hi>The everlaſting God.</hi>
+               </p>
+               <p>Infinitely Perfect, <hi>Rom.</hi> 11.35. <hi>Who hath firſt given to him?</hi>
+               </p>
+               <p>Is of himſelf, and cannot but be. <hi>Exod.</hi> 3. <hi>I am that I am</hi> [or I will be what I will be]— <hi>Thou ſhalt ſay to the children of Iſrael, I am</hi> [or I will be] <hi>hath ſent me.</hi>
+               </p>
+               <pb n="10" facs="tcp:42525:10"/>
+               <p>Hath made and upholds all things and Per<g ref="char:EOLhyphen"/>ſons. <hi>Iſa.</hi> 40.28, 29. <hi>The Lord</hi> [JEHOVAH] <hi>the Creator of the ends of the earth— He giveth power to the faint; and to them that have no might, he increaſeth ſtrength.</hi>
+               </p>
+               <p>He rules all. <hi>Pſal.</hi> 135.5, 6. <hi>The Lord is great, and above all gods. Whatſoever the Lord pleaſed, that did he in heaven, and in earth, in the ſeas, and in all deep places.</hi>
+               </p>
+               <p>Has a right to all Things and Perſons. 1 <hi>Chron.</hi> 29.14, 16. <hi>All things came of thee, and of thine own we give thee— All is thine own.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="VII"/> God the Father is the great Creator of all. 1 <hi>Cor.</hi> 8.6. <hi>The Father, of whom are all things.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="VIII"/> To Create is to make a thing at firſt out of nothing. <hi>Gen.</hi> 1.1. <hi>In the beginning God created the heaven and the earth.</hi>
+               </p>
+               <p n="1">
+                  <milestone type="tcpmilestone" unit="unspecified" n="IX"/>(1.) The only begotten Son of God the Fa<g ref="char:EOLhyphen"/>ther (2.) is called Jeſus Chriſt, who (3.) is God Eternal, (4.) one with his Father, but (5.) was in time made Man.</p>
+               <p n="1">(1.) There is an only begotten Son of God. John 3.8. <hi>He that believeth not, is con<g ref="char:EOLhyphen"/>demned already, becauſe he hath not believed in the name of the only begotten Son of God.</hi> (2.) Matth. 1.21. <hi>Thou ſhalt call his name Jeſus.</hi> And v. 1. <hi>The book of the genera<g ref="char:EOLhyphen"/>tion of Jeſus Chriſt.</hi> (3.) Rom. 9.5. <hi>Of whom, as concerning the fleſh Chriſt came, who is over all, God bleſſed for ever.</hi> (4.) Joh. 10.30. <hi>I and my Father are one.</hi> (5.) Joh. 1.14. <hi>The word was made fleſh.</hi> Gal. 4.4. <hi>In the fulneſs of time— God ſent forth his Son made of a woman.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="X"/> Jeſus ſignifies a Saviour: Chriſt, Anointed.</p>
+               <pb n="11" facs="tcp:42525:10"/>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="XI"/> To redeem, is to deliver out of Slavery, by paying a Price or Ranſome. <hi>Deut.</hi> 13.5. <hi>The Lord hath redeemed you out of the houſe of bondage.</hi> 1 Pet. 18.19. <hi>Ye were not redeemed with corrupti<g ref="char:EOLhyphen"/>ble things, as ſilver and gold— but with the pre<g ref="char:EOLhyphen"/>cious blood of Chriſt, as of a lamb without blemiſh, and without ſpot.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="XII"/> All Mankind by Nature are, (1.) Slaves to Sin, and (2.) Captives to the Devil: And ſo (3.) liable, and as it were bound over, to Death, Temporal, and Eternal.</p>
+               <p n="1">(1.) Rom. 6.17. <hi>Ye were the ſervants of ſin,</hi> ſuch Servants as wanted to be made free, (<hi>v.</hi> 18.) that is, <hi>ſlaves.</hi> See both the proof and explication of this Slavery, <hi>v.</hi> 16.</p>
+               <p n="2">(2.) 2 Tim. 2.26. <hi>If God will give them re<g ref="char:EOLhyphen"/>pentance, that they may recover themſelves out of the ſnare of the devil; —taken captive by him at his will.</hi>
+               </p>
+               <p n="3">(3.) Rom. 5.12. <hi>As by one man ſin entred in<g ref="char:EOLhyphen"/>to the world, and death by ſin; ſo death paſſed upon all men, for that all have ſinned.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="XIII"/> Chriſt, that he might ſave us, has redeem<g ref="char:EOLhyphen"/>ed or bought us out of all this Slavery, and from all this Puniſhment, by giving his Life a Ranſome for us. <hi>Matth.</hi> 20.28. <hi>The ſon of man came— to give his life a ranſome for many.</hi> Gal. 3.13. <hi>Chriſt hath redeemed us from the curſe of the law, being made a curſe for us.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="XIV"/> Chriſt by his Death did Redeem all Man<g ref="char:EOLhyphen"/>kind, even thoſe that periſh. 1 <hi>Tim.</hi> 2.6. <hi>Chriſt Jeſus gave himſelf a ranſom for all men.</hi> Heb. 2.9. <hi>He taſted death for every man.</hi> 2 Pet. 2.1. <hi>Denying the Lord that bought them, they bring upon themſelves ſwift deſtruction.</hi>
+               </p>
+               <pb n="12" facs="tcp:42525:11"/>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="XV"/> Only thoſe who believe and obey the Goſ<g ref="char:EOLhyphen"/>pel, ſhall be ſaved by this Redemption. <hi>Heb.</hi> 5.9. <hi>Chriſt being made perfect, became the author of eternal ſalvation unto all them that obey him.</hi>
+               </p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="XVI"/> Holineſs is purity from Sin.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="XVII"/> Ghoſt is an old word for Spirit.</p>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="XVIII"/> God the Holy Ghoſt (who is alſo (1.) com<g ref="char:EOLhyphen"/>monly called the Spirit of God) is that Spirit which (2.) does inſpire [that is, <hi>ſecretly work</hi>] holineſs in us; which work we call ſanctifying us. (1.) <hi>Gen.</hi> 1.2. <hi>The ſpirit of God moved upon the face of the waters.</hi> 1 Cor. 2.11. <hi>The things of God knoweth no man, but the ſpirit of God.</hi> (2.) Rom. 15.16. <hi>Being ſanctified by the Holy Ghoſt.</hi>
+               </p>
+               <p>The Elect People of God, are the Saints, or Sanctified; the Church, the choice and pecu<g ref="char:EOLhyphen"/>liar People of God. 2 <hi>Theſſ.</hi> 2.13. <hi>God hath choſen you to ſalvation through ſanctification of the ſpirit, and belief of the truth.</hi> Pſal. 105.43. <hi>He brought forth his people with joy, and his choſen with gladneſs.</hi>
+               </p>
+               <p>
+                  <note place="margin">On Anſw. <hi>8.</hi>
+                  </note>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>I</label> God has delivered us Chriſtians, through Chriſt, from the Spiritual Bondage of cuſto<g ref="char:EOLhyphen"/>mary committing Sin; the very fouleſt ſorts of which moſt of us, in this our corrupt State, are ſubject to. <hi>Joh.</hi> 8.34, 36. <hi>Whoſoever com<g ref="char:EOLhyphen"/>mitteth ſin, is the ſervant of ſin. If the Son there<g ref="char:EOLhyphen"/>fore ſhall make you free, ye ſhall be free indeed.</hi>
+               </p>
+               <p>
+                  <note place="margin">The Ten Com<g ref="char:EOLhyphen"/>mandments Pa<g ref="char:EOLhyphen"/>raphraſed. That is, The Senſe ſhortly givon in other words.</note>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>II</label> To have any thing to ones ſelf for a God, is to pay to it the higheſt poſſible ſubmiſſion, honour, love, truſt, and obedience of Soul and Body.</p>
+               <pb n="13" facs="tcp:42525:11"/>
+               <p>
+                  <note place="margin">
+                     <hi>I.</hi> Command. Senſe.</note>Thou ſhalt own me, <hi>Jehovah,</hi> as the alone Maker, Lord, and Governor of all things; and thou ſhalt not believe, love, regard, truſt to, or obey any Perſon or thing, ſo heartily or intirely, as thou doſt me. <hi>(Or ſhorter yet)</hi> Thou ſhalt have me, <hi>Jehovah,</hi> for thy God and Happineſs; and none other, either with me, or in my ſtead.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>III</label> To make to ones ſelf an Image, in the Se<g ref="char:EOLhyphen"/>cond Command, is to make an Image for uſe in the Worſhip of God. <hi>Levit.</hi> 26.1. <hi>Ye ſhall MAKE YOU no Idol, or graven Image, neither rear you up a ſtanding Image, neither ſhall ye ſet up any Image of ſtone in your land, TO BOW down unto it: for I am the Lord your God.</hi>
+               </p>
+               <p>
+                  <note place="margin">
+                     <hi>II.</hi> Com<g ref="char:EOLhyphen"/>mand. Senſe.</note>Thou ſhalt not make to thy ſelf any bodily Image of me, who dwell in Heaven; neither ſhalt thou have by thee to worſhip any ſuch Image of me, or of any thing elſe (whether of any thing really being, or imagined to be) either in the Heaven, Air, Earth, Water, or in Hell; nor ſhalt thou ſo much as bow thy ſelf thereto. But to me thou ſhalt bow down and worſhip. <hi>Pſal.</hi> 95.6. <hi>O come let us worſhip and bow down, let us kneel before the Lord our Maker.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>IV</label> To viſit the Sins of the Fathers upon the Children, is to puniſh People for ſeveral Ge<g ref="char:EOLhyphen"/>nerations together.</p>
+               <p>
+                  <hi>To take</hi> (or lift up, <hi>Heb.</hi>) the Name of God,<label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>V</label> is to ſwear.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>VI</label> Swearing is calling God to witneſs of our truth in what we ſay, as expecting vengeance from him, the moſt Righteous and All-ſeeing Judge, if we think, believe or intend other
+<pb n="14" facs="tcp:42525:12"/> than we ſpeak. <hi>Judg.</hi> 11.10. <hi>The Lord be wit<g ref="char:EOLhyphen"/>neſs between us, if we do not ſo.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>VII</label>
+                  <hi>Not to hold guiltleſs,</hi> is ſurely and ſeverely to puniſh.</p>
+               <p>
+                  <note place="margin">
+                     <hi>III.</hi> Com<g ref="char:EOLhyphen"/>mand. Senſe.</note>Thou ſhalt not either ſwear falſely, or at thy pleaſure. Neither ſhalt thou irreverently uſe my Name; as all thoſe do, who Swear and Curſe in common Diſcourſe.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>VIII</label> A Sabbath is a day of reſt from Servile Work, and Common Buſineſs. <hi>Levit.</hi> 28.24, 25. <hi>Ye ſhall have a Sabbath— Ye ſhall do no ſervile work therein.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>IX</label>
+                  <hi>Servile work</hi> is ſuch as we put Servants to.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>X</label> To <hi>keep a day holy,</hi> is to ſpend it to thoſe holy Uſes and Employmets to which it was ſet a-part, <hi>(viz.)</hi> to God's Service. <hi>Rom.</hi> 14.16. <hi>He that regardeth a day, regardeth it to the Lord.</hi>
+               </p>
+               <p>
+                  <note place="margin">
+                     <hi>IV.</hi> Com<g ref="char:EOLhyphen"/>mand. Senſe.</note>Remember that thy whole Life be a reſt from Sin, to the Service of God; and in or<g ref="char:EOLhyphen"/>der thereto, Remember to keep holy, both in publick and in private, all ſuch Days as are by Chriſtian Laws ſet a-part to my Worſhip; but in a more eſpecial ſort, the <hi>Lord's Day,</hi> as be<g ref="char:EOLhyphen"/>ing the <hi>Chriſtian Sabbath.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>XI</label> By Honour, we underſtand, <hi>Inwardly,</hi> a high eſteem; <hi>Outwardly,</hi> a reſpectful and du<g ref="char:EOLhyphen"/>tiful carriage towards others, by reaſon of the good in them, or which we receive by them.</p>
+               <p>
+                  <note place="margin">
+                     <hi>V.</hi> Com<g ref="char:EOLhyphen"/>mand. Senſe.</note>Thou ſhalt honour (with the degree of ho<g ref="char:EOLhyphen"/>nour due to each) thy Parents, thy King, thy Paſtors and Teachers: As alſo all that are in Authority, or Eminency, both in Church and State; and even thy Superiors of all ſorts.</p>
+               <pb n="15" facs="tcp:42525:12"/>
+               <p>
+                  <note place="margin">
+                     <hi>VI.</hi> Com<g ref="char:EOLhyphen"/>mand. Senſe.</note>Thou ſhalt not knowingly kill, or even wound, maim, or ſtrike any one, without lawful Authority: Nay thou ſhalt not to thy power, be cauſeleſly angry with any; much leſs bear malice or revenge to, or otherwiſe provoke, any Perſon; but thou ſhalt be care<g ref="char:EOLhyphen"/>ful both of thy own and others Life.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>XII</label>
+                  <hi>Adultery</hi> here ſignifies any Naughtineſs be<g ref="char:EOLhyphen"/>tween either unmarried or married People.</p>
+               <p>
+                  <note place="margin">
+                     <hi>VII.</hi> Com<g ref="char:EOLhyphen"/>mand. Senſe.</note>Thou ſhalt not defile any either married or unmarried Woman; nor ſhall any Woman conſent to be defiled: But in thought, word and deed, ſhalt thou endeavour to keep chaſt and pure both thy ſelf and others.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>XIII</label> To <hi>Steal,</hi> is to take away from another that which is his without his conſent, or any law<g ref="char:EOLhyphen"/>ful Authority.</p>
+               <p>
+                  <note place="margin">
+                     <hi>VIII.</hi> Com<g ref="char:EOLhyphen"/>mand. Senſe.</note>Thou ſhalt neither take away, nor with-hold any thing from the Owner thereof, without either the Owner's conſent, or due warrant by Law; but thou ſhalt to thy power, give and preſerve to all their own; and be thy ſelf both diligent in thy Calling, and thrifty in thy way of living, that neither thou nor thine may want, but rather be able to help others.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>XIV</label> To bear witneſs, here, is to ſpeak or talk any thing of our Neighbour. So <hi>Luke</hi> 4.22. <hi>All bear him witneſs.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>XV</label> By Neighbour, the Scripture means any Per<g ref="char:EOLhyphen"/>ſon whatſoever. Read <hi>Luke</hi> 10.29, to 38.</p>
+               <p>
+                  <note place="margin">
+                     <hi>IX.</hi> Com<g ref="char:EOLhyphen"/>mand. Senſe.</note>Thou ſhalt not in any caſe ſpeak of (or a<g ref="char:EOLhyphen"/>gainſt) any one, what thou doſt not know to be true. Nay except in Caſes of <hi>Juſtice</hi> and <hi>Charity,</hi> thou ſhalt not ſpeak of others that evil which thou doſt know of them; but al<g ref="char:EOLhyphen"/>ways
+<pb n="16" facs="tcp:42525:13"/> have a care of other Peoples good Name as well as of thine own.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>XVI</label> To Covet, here, ſignifies ſo to deſire, as to contrive means how to compaſs, though un<g ref="char:EOLhyphen"/>juſtly, what we deſire. <hi>Mark</hi> 10.19. <hi>Covet not,</hi> is rendred, <hi>defraud not.</hi>
+               </p>
+               <p>
+                  <note place="margin">
+                     <hi>X.</hi> Com<g ref="char:EOLhyphen"/>mand. Senſe.</note>Thou ſhalt not ſo deſire any thing, which thou ſeeſt thy Neighbour to have, as to con<g ref="char:EOLhyphen"/>trive to come by it unjuſtly, or without his conſent; but thou ſhalt be contented with thine own Condition, putting away all irk<g ref="char:EOLhyphen"/>ſome Cares, and depending upon God for meet Supplies, by a bleſſing upon thy honeſt Labours.</p>
+               <p>
+                  <note place="margin">On Anſw. <hi>9.</hi>
+                  </note>The four firſt Commandments, which we commonly call the <hi>Firſt Table,</hi> teach us <hi>our du<g ref="char:EOLhyphen"/>ty to God;</hi> the ſix laſt, or <hi>Second Table,</hi> our du<g ref="char:EOLhyphen"/>ty to <hi>our Neighbours</hi> and <hi>our ſelves.</hi>
+               </p>
+               <p>
+                  <note place="margin">On Anſw. <hi>11.</hi>
+                  </note>
+                  <hi>Picking,</hi> ſignifies leſſer Acts of Thieving, with which Malefactors commonly begin.</p>
+               <p>
+                  <note place="margin">On Qu. <hi>12.</hi>
+                  </note>
+                  <hi>Special Grace,</hi> is particular Aſſiſtance given to each Perſon for every good Act. 2 <hi>Cor.</hi> 12.9. <hi>My grace is ſufficient for thee, for my ſtrength is made perfect in weakneſs.</hi>
+               </p>
+               <p>
+                  <note place="margin">
+                     <hi>On Qu.</hi> 12. Propoſi<g ref="char:EOLhyphen"/>tion.</note>The Lord's Prayer ought to be uſed as a Prayer; and not only as a Pattern of making Prayers by it. <hi>Luk.</hi> 11.2. <hi>When ye pray, ſay, Our Father,</hi> &amp;c.</p>
+               <p>
+                  <note place="margin">On Anſ. <hi>12.</hi>
+                  </note>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>I</label> God is our Father by Creating, Maintain<g ref="char:EOLhyphen"/>ing, and Redeeming us. <hi>Acts</hi> 17.28. <hi>In him— we have our being— for we are his offspring.</hi> Pſal. 68.5. <hi>He is a Father of the fatherleſs;</hi> viz. By providing for them. <hi>Iſa.</hi> 63.16. <hi>Thou, O Lord, art our Father, our Redeemer.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>II</label> His being in Heaven, notes his Infinite Ma<g ref="char:EOLhyphen"/>jeſty
+<pb n="17" facs="tcp:42525:13"/> and Power: <hi>Eccleſ.</hi> 5.2. <hi>He is in heaven, and thou upon earth.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>III</label> His being our Father, notes his kind affe<g ref="char:EOLhyphen"/>ction, care and providence over all. <hi>Pſal.</hi> 103.13. <hi>Like as a father pitieth his children, ſo the Lord pitieth them that fear him.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>IV</label> The Name of God here ſignifieth himſelf as known to us. <hi>Pſal.</hi> 20.1. <hi>The Lord hear thee in the day of trouble; the name of the God of Jacob defend thee.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>V</label> Hallowed, here, is as much as thought of, entertained and mentioned, with all holy awe and honour. 1 <hi>Pet.</hi> 3.15. <hi>Sanctify</hi> [or hallow] <hi>the Lord in your hearts.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>VI</label> God has a double Kingdom; one here in the Souls of Men, when all their Affections, Purpoſes and Actions are ſubject and obedient to his Law. <hi>Col.</hi> 3.15. <hi>Let the peace of God rule in your hearts:</hi> Which may be explained by 2 <hi>Cor.</hi> 10.15. When even <hi>imaginations</hi> [or all Reaſonings] <hi>and every high thing that exalteth it ſelf againſt the knowledge of God, is caſt down, and every thought brought into captivity to the obe<g ref="char:EOLhyphen"/>dience of Chriſt:</hi> The other hereafter, when all ſuch holy Perſons ſhall reign with him in Hea<g ref="char:EOLhyphen"/>ven everlaſtingly. <hi>Revel.</hi> 2.5. <hi>They ſhall reign for ever and ever.</hi> 2 Pet. 1.11. <hi>An entrance ſhall be miniſtred unto you abundantly into the everlaſt<g ref="char:EOLhyphen"/>ing kingdom of our Lord and Saviour Jeſus Chriſt.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>VII</label> The Angels do the Will of God in Heaven, and that moſt cheerfully, diligently, ſpeedily, and impartially. <hi>Pſal.</hi> 103.20, 21. <hi>Bleſs the Lord ye his Angels — that do his commandments, hearkening to the voice of his word — ye miniſters of his that do his pleaſure.</hi>
+               </p>
+               <pb n="18" facs="tcp:42525:14"/>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>VIII</label> The Will of God on Earth may be done, not only by us, but alſo upon us. <hi>Acts</hi> 21.14. <hi>The will of the Lord be done.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>IX</label> Daily Bread, ſignifies all the Neceſſaries of Life, as God ſees them good for us. <hi>Prov.</hi> 30.8. <hi>Give me neither poverty nor riches: feed me with food convenient for me.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>X</label> To forgive our Treſpaſſes, is for God to free us from all puniſhment (both here, and more eſpecially hereafter) due to us for ſin. Pſal. 99.8. <hi>Thou waſt a God that forgaveſt them, though thou tookeſt vengeance on their inventions.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>XI</label> To tempt, is to try; eſpecially either by en<g ref="char:EOLhyphen"/>ticing into Sin, or affrighting from Duty. <hi>Jam.</hi> 1.13. <hi>God cannot be tempted with evil, neither tempteth he any man.</hi> Temptation is ſuch being tried, that is, enticed or affrighted, as before.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>XII</label> God is ſaid to lead into temptation, when he juſtly withdraws his Grace, which we have neglected, or abuſed, and leaves us to our ſelves. <hi>Pſal.</hi> 51.11. <hi>Take not thy holy ſpirit from me.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſit. </seg>XIII</label> Evil here, ſignifies either the evil, and hurt of the Temptation, or the Evil One, that is the Devil, our chief Tempter. Thus <hi>Matt.</hi> 13.38. <hi>The children of the wicked</hi> [or evil] <hi>one.</hi>
+               </p>
+               <p>
+                  <note place="margin">On Qu. <hi>14. Propoſi<g ref="char:EOLhyphen"/>tion.</hi>
+                  </note>Sacraments, in a very large ſenſe, ſignifies any holy Rights or Ceremonies to be uſed in the Worſhip of God, to the end of the World.</p>
+               <p>
+                  <note place="margin">On Anſ. <hi>14.</hi>
+                  </note>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>I</label> Generally neceſſary, is as much as neceſſa<g ref="char:EOLhyphen"/>ry to the Salvation of all People, ſaved in the common way.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>II</label> A Sacrament in the ſtrict ſenſe is, a Seal of the Chriſtian Covenant, and ſo a means to make us Partakers of the Benefits of that Co<g ref="char:EOLhyphen"/>venant. <hi>Rom.</hi> 4.11. <hi>A ſeal of the righteouſneſs
+<pb n="19" facs="tcp:42525:14"/> of faith,</hi> viz. by virtue of the Covenant made with <hi>Abraham.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>III</label> There are but two ſuch Sacraments; and both of them are generally, or ordinarily, ne<g ref="char:EOLhyphen"/>ceſſary to Salvation. 1 <hi>Cor.</hi> 12.13. <hi>By one Spi<g ref="char:EOLhyphen"/>rit we are all baptized into one Body— and have been all made to drink into one Spirit.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>IV</label> Receiving the outward parts of the Sacra<g ref="char:EOLhyphen"/>ments alone, when we by our unfitneſs hin<g ref="char:EOLhyphen"/>der God from beſtowing the inward Grace, does no good, but many times much harm. <hi>Acts</hi> 8.13, 21, 23. <hi>Simon</hi> [the Sorcerer] <hi>was baptiſed,</hi> yet <hi>had neither part nor lot in this mat<g ref="char:EOLhyphen"/>ter; for his heart was not right before God; He was in the gall of bitterneſs, and bond of iniquity.</hi> 1 Cor. 11.29. <hi>He that eateth and drinketh un<g ref="char:EOLhyphen"/>worthily, eateth and drinketh damnation to himſelf.</hi>
+               </p>
+               <p>
+                  <note place="margin">
+                     <hi>On Anſ.</hi> 16. Propoſi<g ref="char:EOLhyphen"/>tion.</note>An inward Spiritual Grace here, is ſome unſeen gift of God, beſtowed upon us as the fruit of the Covenant: Namely, as before has been declared, either Grace, Pardon or Com<g ref="char:EOLhyphen"/>fort, in a Right and Title to Heaven.</p>
+               <p>
+                  <note place="margin">
+                     <hi>On Anſ.</hi> 17. Propoſi<g ref="char:EOLhyphen"/>tion.</note>To be Baptiſed in [or into] the Name of the Father, Son, and Holy Ghoſt, is by being baptiſed, to be given up moſt intirely, to be<g ref="char:EOLhyphen"/>lieve and obey the Father, Son, and Holy Ghoſt. 1 <hi>Cor.</hi> 1.13, 14, 15. <hi>Were ye baptiſed in</hi> [or into] <hi>the name of Paul?</hi>
+               </p>
+               <p>
+                  <note place="margin">
+                     <hi>On Anſ.</hi> 18.</note>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>I</label> To be dead unto Sin, is to be freed from being under the power of Sin. <hi>Rom.</hi> 6.7. <hi>He that is dead, is freed from ſin.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>II</label> To be new born unto Righteouſneſs, is to be by God indued with Diſpoſitions to Righ<g ref="char:EOLhyphen"/>teouſneſs, and every way ingaged and aſſiſted to live righteouſly. And thus are all Bap<g ref="char:EOLhyphen"/>tiſed
+<pb n="20" facs="tcp:42525:15"/> Perſons. <hi>Rom.</hi> 6.3, 4, 5, 6. <hi>Know ye not, &amp;c.</hi> Read all the four Verſes.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>III</label> By Nature born in Sin, and Children of Wrath, is being of our ſelves (or by common courſe of Birth and Education) corrupt, ſin<g ref="char:EOLhyphen"/>ful, and under the Curſe of Sin. <hi>Pſal.</hi> 51.5. <hi>I was ſhapen</hi> [or born] <hi>in iniquity, and in ſin did my mother conceive me.</hi> Eph. 2.3. <hi>Being by nature children of wrath.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>IV</label> Made Children of Grace, is being put into a ſtate of Grace, that is, as before has been ſaid, under the means of God's Bleſſing and Favour, for obtaining all the benefits of the Covenant: Proved under <hi>Queſt.</hi> and <hi>Anſw.</hi> 4.</p>
+               <p>
+                  <note place="margin">
+                     <hi>On Qu.</hi> 19. Propoſi<g ref="char:EOLhyphen"/>tion.</note>Perſons to be baptiſed, are either of ripe Years, as <hi>Jews, Turks, Heathens,</hi> when con<g ref="char:EOLhyphen"/>verted to the Chriſtian Faith, together with all unbaptiſed Perſons, who have lived in the Church, or elſe the Infants of Chiſtian Pa<g ref="char:EOLhyphen"/>rents at leaſt by one ſide. 1 <hi>Cor.</hi> 7.14. <hi>The un<g ref="char:EOLhyphen"/>believing husband is ſanctified by the wife, and the unbelieving wife is ſanctified by the husband: Elſe were your children unclean, but now they are holy.</hi>
+               </p>
+               <p>
+                  <note place="margin">On Anſ. <hi>19.</hi>
+                  </note>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>I</label> Repentance is the forſaking all kinds of Sin. <hi>Ezek</hi> 18.21. <hi>If the wicked will turn from all his ſins that he hath committed, and keep all my ſta<g ref="char:EOLhyphen"/>tutes.</hi> See an Example of ſuch Repentance, <hi>Judges</hi> 10.13, and 16. compared. <hi>Ye have for<g ref="char:EOLhyphen"/>ſaken me, and ſerved other gods— And they put away the ſtrange gods from amongſt them.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>II</label> Acts of Sin are forſaken by ſorrowing for them, and doing ſo no more. <hi>Matth.</hi> 26.75. <hi>Peter went out, and wept bitterly.</hi> John 5.14. <hi>Sin no more, leſt a worſe thing come unto thee.</hi>
+               </p>
+               <p>Habits (or a uſe of any Sin) by breaking
+<pb n="21" facs="tcp:42525:15"/> our ſelves of that ill Uſe or Cuſtom, and of all love and inclination to it. <hi>Gal.</hi> 5.24. <hi>They that are Chriſt's, have crucified the fleſh, with the affections and luſts.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>III</label> Only that Belief is ſtedfaſt, which ſets us on performing the Condition of God's Promiſes, namely, good Works, or doing our duty. <hi>Jam.</hi> 2.17, 18. <hi>Faith, if it hath not works, is dead, be<g ref="char:EOLhyphen"/>ing alone. Shew me thy faith without thy works, and I will ſhew thee my faith by my works.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>IV</label> A dependance on God in a way of well-doing, with due regard to God's Promiſes in Chriſt Jeſus, is moſt certainly a ſaving Faith. <hi>Proved</hi> from <hi>Heb.</hi> 11. the whole Chapter, eſ<g ref="char:EOLhyphen"/>pecially <hi>verſes</hi> 8, 10, 11, 17, 18, 19.</p>
+               <p>
+                  <note place="margin">
+                     <hi>On Anſ.</hi> 20. Propoſi<g ref="char:EOLhyphen"/>tion.</note>Chriſtian Infants are within the Covenant, and therefore may not be denied Baptiſm, which is only the firſt Seal of the Covenant. <hi>Deut.</hi> 29.10, 11, 12. <hi>Ye ſtand here this day all of you before the Lord— all ye men of Iſrael, your little ones, and your wives— that you ſhould enter into covenant with the Lord your God, and into his Oath which he maketh with thee this day.</hi>
+               </p>
+               <p>
+                  <note place="margin">On Anſ. <hi>21.</hi>
+                  </note>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>I</label> A Sacrifice (ſtrictly) is a Religious Offering. made to God; commonly of ſome living Crea<g ref="char:EOLhyphen"/>ture, ſlain by the hands of a Prieſt, according to God's appointment, as an Act of outward Worſhip, and an acknowledgment that we our ſelves have deſerved to die. <hi>Levit.</hi> 1.25. <hi>Ye ſhall bring your offering of the cattle, even of the herd, and of the flock — And he,</hi> that is, the Prieſt, <hi>ſhall kill the bullock before the Lord,</hi> &amp;c.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>II</label> Chriſt Jeſus by his death became a true Sa<g ref="char:EOLhyphen"/>crifice or Offering for Sin, to make peace for us. <hi>Iſa.</hi> 53.10. <hi>Thou ſhalt make his ſoul an offer<g ref="char:EOLhyphen"/>ing
+<pb n="22" facs="tcp:42525:16"/> for ſin.</hi> Heb. 9.26. <hi>Now once in the end of the world hath he</hi> [Chriſt] <hi>appeared to put away ſin by the ſacrifice of himſelf.</hi> Epheſ. 2.14. <hi>He is our peace.</hi>
+               </p>
+               <p>
+                  <note place="margin">On Anſ. <hi>23.</hi>
+                  </note>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>I</label> By the Body and Blood of Chriſt, we mean only Chriſt's Sacrifice of himſelf for Remiſ<g ref="char:EOLhyphen"/>ſion of Sin. <hi>Matth.</hi> 26.28. <hi>This is my blood which is ſhed — for the remiſſion of ſin.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>II</label> The Faithful, verily and indeed in the Lord's Supper, by Faith partake of the Sacri<g ref="char:EOLhyphen"/>fice of Chriſt's Death; that is, All the Bene<g ref="char:EOLhyphen"/>fits of his Death and Sufferings are truly from God conveyed and ſealed to them. 1 <hi>Cor.</hi> 10.16. <hi>The cup of bleſſing which we bleſs, is it not the communion of the blood of Chriſt? the bread which we break, is it not the communion of the body of Chriſt?</hi>
+               </p>
+               <p>
+                  <note place="margin">On Anſ. <hi>24.</hi>
+                  </note>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>I</label> Our Souls, in the Sacrament, are ſtrength<g ref="char:EOLhyphen"/>ned by the Spirit of God conveyed to us as a fruit of Chriſt's Death. 1 <hi>Cor.</hi> 12.13. <hi>We have been all made to drink into one ſpirit:</hi> Namely, into that Spirit of which our Lord ſpake (<hi>John</hi> 6.63.) <hi>It is the ſpirit which quickneth:</hi> And which he promiſed, <hi>John</hi> 15.26. to <hi>ſend from his Father</hi> after his departure.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>II</label> Our Souls are refreſhed in the Sacrament by the apprehenſion and aſſurance hereby raiſed, both of our pardon of Sin, and right to Hea<g ref="char:EOLhyphen"/>ven, through the Sufferings of Chriſt for us. 2 Cor. 1.22. <hi>He hath alſo ſealed us, and given us the earneſt of the Spirit in our hearts.</hi>
+               </p>
+               <p>
+                  <note place="margin">On Anſ. <hi>25.</hi>
+                  </note>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>I</label> The chief Steps of truly repenting our ſelves of our former Sins, are (1.) Examination of our ſelves, what Sins we have been guilty of; (2.) Confeſſion of them before God, and
+<pb n="23" facs="tcp:42525:16"/> (3.) Reſolution againſt them, or ſtedfaſt Pur<g ref="char:EOLhyphen"/>poſes of a New Life. (1.) <hi>Hag.</hi> 1.5. <hi>Conſider your ways.</hi> Pſal. 119.59. <hi>I thought on my ways, and turned my feet unto thy teſtimonies.</hi> (2.) Levit. 5.5. <hi>When he ſhall be guilty in one of theſe things, he ſhall confeſs that he hath ſinned in that thing.</hi> (3.) <hi>Hoſ.</hi> 14.8. <hi>Ephraim ſhall ſay, What have I to do any more with Idols?</hi> Pſal. 101.2, 3. <hi>I will behave my ſelf wiſely in a perfect way — I will walk with a perfect heart. I will ſet no wicked thing before my eyes.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>II</label> In repenting of Sins againſt our Neighbours, we are to make due amends for the wrong done, and reconcile our ſelves to them. <hi>Matt.</hi> 5.23, 24. <hi>If thou bring thy gift to the Altar, and there remembreſt that thy brother hath ought againſt thee; Leave there thy gift before the Altar, and go thy way, firſt be thou reconciled to thy brother, and then come and offer thy gift.</hi>
+               </p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>III</label> A lively Faith (here) is, The actual caſting our ſelves, after all our Repentance, on God's Mercy through the Sacrifice of Chriſt; or acting ſuch a dependance on God through Chriſt as before deſcribed.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>IV</label> We can only approve <hi>our thankful remem<g ref="char:EOLhyphen"/>brance of Chriſt's death,</hi> by endeavouring a con<g ref="char:EOLhyphen"/>ſtant ſenſe of his Infinite Love in dying to re<g ref="char:EOLhyphen"/>deem us, and of the infinite Benefits we re<g ref="char:EOLhyphen"/>ceive thereby: And therefore by giving our ſelves up to obey him, who has thus bought us (Soul and Body) to himſelf. 1 <hi>Cor.</hi> 6.19, 20. <hi>Ye are not your own, for ye are bought with a price: Therefore glorify God in your body, and in your ſpirit, which are God's.</hi>
+               </p>
+               <pb n="24" facs="tcp:42525:17"/>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>V</label> To be in charity with all men, is to bear good will to all People, whether Friends, Ene<g ref="char:EOLhyphen"/>mies or Strangers; forgiving all who have wronged us, and being ready to do all good Offices in our power, to any Perſons living. <hi>Matth.</hi> 5.44, 45. <hi>Love your enemies; bleſs them that curſe you, do good to them that hate you, and pray for them that deſpightfully uſe you, and perſecute you; that you may be the chil<g ref="char:EOLhyphen"/>dren of your Father which is in heaven: For he maketh his Sun to riſe upon the evil, and on the good, and ſendeth rain on the juſt, and on the un<g ref="char:EOLhyphen"/>juſt.</hi> Levit. 19.18. <hi>Thou ſhalt not avenge, nor bear any grudge againſt the children of thy people, but thou ſhalt love thy neighbour as thy ſelf: I am the Lord.</hi> Luke 10.29. <hi>Who is my neighbour?</hi> Read on to <hi>v.</hi> 38.</p>
+               <p>
+                  <note place="margin">Of Confir<g ref="char:EOLhyphen"/>mation.</note>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>I</label> Confirmation is the Biſhop's Bleſſing, and laying his Hands on ſuch baptiſed Perſons as underſtand their Catechiſm, and take the Vow of Baptiſm on themſelves, whereby they are admitted grown Members of the Church. <hi>Heb.</hi> 6.12. <hi>The doctrine of Baptiſm, and of laying on of hands,</hi> are reckoned among the <hi>foundations and beginnings of the doctrine of Chriſt,</hi> or of our Chriſtianity.</p>
+               <p>
+                  <label type="milestone">
+                     <seg type="milestoneunit">Propoſi∣tion </seg>II</label> Such who come to it, are to prepare them<g ref="char:EOLhyphen"/>ſelves before-hand, by due Conſideration what they come about, by devout Prayer and ho<g ref="char:EOLhyphen"/>neſt Reſolution to confirm the Vow of their Baptiſm.</p>
+               <p>They are to be preſented by ſome ſerious Friend as a Witneſs of their Confirmation.</p>
+               <p>[All this is proved out of the Office of Con<g ref="char:EOLhyphen"/>firmation.]</p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="postscript">
+            <pb facs="tcp:42525:17"/>
+            <head>Poſtſcript.</head>
+            <p>
+               <hi>THE Author confining himſelf to two Pages in the</hi> Directions for the Uſe of this his Method, <hi>has, by the</hi> Brevity <hi>occaſi<g ref="char:EOLhyphen"/>oned thence, been too</hi> obſcure. <hi>He therefore deſires, (1.) That his Meaning, in the laſt Pa<g ref="char:EOLhyphen"/>ragraph of the firſt Page, may be thus more fully taken.</hi>
+            </p>
+            <p>Now this Text, at firſt ſight, proves (to the pur<g ref="char:EOLhyphen"/>poſe for which it is brought) only thus much: That, whereas there were ſeveral degrees or ways of In<g ref="char:EOLhyphen"/>ſtruction in uſe, even in the very firſt Chriſtian Age, this of Catechiſing was the firſt and loweſt, as being indeed previous or preparatory to Compleat and Full Chriſtianity. It may be therefore ſufficient here for the Catechiſt to ſay only ſomething to this Effect. <q>It is plain from St. <hi>Luke,</hi> that <hi>Theophilus</hi> was firſt <hi>Catechiſed</hi> before he was capable of recei<g ref="char:EOLhyphen"/>ving full benefit by the Goſpel written, or by Holy Scripture; and that this Goſpel was written, further to confirm and perfect him in the know<g ref="char:EOLhyphen"/>ledge of what he had been before more ſummarily or briefly taught: This, I ſay, may ſuffice as to this Text.</q>
+            </p>
+            <p>Notwithſtanding if more be required, more may be, and very lawfully, inferred hence. For <hi>Cate<g ref="char:EOLhyphen"/>chiſing</hi> being the <hi>firſt Inſtructing in Chriſtian Knowledge,</hi> muſt needs be an Inſtruction of the
+<pb facs="tcp:42525:18"/> 
+               <hi>firſt Chriſtian Doctrines.</hi> Now in all Sciences (or Bodies of Knowledge) the firſt Doctrines (com<g ref="char:EOLhyphen"/>monly called <hi>Principles</hi>) are ſtill the <hi>plaineſt,</hi> as preparing to the underſtanding of all the reſt; and <hi>moſt neceſſary,</hi> as being the Foundations of the whole Body. And then the common Import of the word [<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>] to <hi>Catechiſe,</hi> being to <hi>teach by often repeating,</hi> it will unavoidably follow, That to Catechiſe, when the word is appropriated to Re<g ref="char:EOLhyphen"/>ligion, as here, will be to <hi>Inſtruct in Religion by often plain going over again, or repeating, the firſt and moſt neceſſary Points of it:</hi> which was the Definition to be proved.</p>
+            <p>But ſuch Curioſity of Proof needs not to be uſed in the Ordinary Explanation of the Catechiſm; and when the Subject-matter will bear it, the Proofs here ſet down out of Scripture, are of themſelves plain Enough, nor do they need many Words to bring them to bear.</p>
+            <p>And <hi>(2.)</hi> that by the words, <hi>This courſe is only for the weaker or younger ſort,</hi> in the mid<g ref="char:EOLhyphen"/>dle of the 2d Page, may be underſtood as in the two firſt Lines of the Directions he has in terms expreſt himſelf, the <hi>ſetting perſons to learn without book ſo many Explanatory Propoſitions.</hi> For other<g ref="char:EOLhyphen"/>wiſe, the Propoſitions and their Proofs are generally of ſuch moment, as that they are worth the Conſideration and Attention of the moſt grown Chriſtians.</p>
+            <p>
+               <hi>Pardon now this, after trouble of Correct<g ref="char:EOLhyphen"/>ing the</hi>
+            </p>
+         </div>
+         <div type="errata">
+            <head>ERRATA.</head>
+            <p>
+               <hi>PAg. 3.</hi> of the Abſtract. <hi>lin. 17.</hi> Read <hi>Coloſſ. 3. 4.</hi> p. <hi>4.</hi> l. <hi>25.</hi> &amp; <hi>5.</hi> l. <hi>8.</hi> r. <hi>Tempting.</hi> p. <hi>7.</hi> l. <hi>29.</hi> r. <hi>we ſhall.</hi> p. <hi>8.</hi> l. laſt, r. <hi>parts, as following.</hi> p. <hi>18.</hi> l. <hi>27.</hi> r. <hi>Rites.</hi> p. <hi>20.</hi> l. <hi>30.</hi> r. <hi>them, and ſerved the Lord.</hi> In the Paraphraſe of the Lord's Prayer, l. <hi>4.</hi> from the end, r. <hi>All-ſufficient.</hi>
+            </p>
+            <p>The Miſtakes of Figures will be help'd by the words of the Texts.</p>
+            <pb facs="tcp:42525:18"/>
+         </div>
+      </back>
+   </text>
+</TEI>
